@@ -31,30 +31,21 @@
           <li class="nav__link" onclick="toggleModal()">
             <a
               href="#"
-              class="
-                nav__link--anchor
-                link__hover-effect link__hover-effect--black
-              "
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >About</a
             >
           </li>
           <li class="nav__link">
             <a
               href="#projects"
-              class="
-                nav__link--anchor
-                link__hover-effect link__hover-effect--black
-              "
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Projects</a
             >
           </li>
           <li class="nav__link" onclick="toggleModal()">
             <a
               href="#"
-              class="
-                nav__link--anchor
-                link__hover-effect link__hover-effect--black
-              "
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Contact</a
             >
           </li>
@@ -70,11 +61,12 @@
           <h1 class="title">Hey</h1>
           <h1 class="title orange">I'm Campbell.</h1>
           <p class="header__para">
-            I'm a <b class="orange">Full-stack Developer</b> with a strong passion
-            for building web applications with great user experiences.
+            I'm a <b class="orange">Full-stack Developer</b> with a strong
+            passion for building web applications with great user experiences.
             <br />
             Here's a bit more
-            <b class="orange click about-me" onclick="toggleModal()">about me</b>.
+            <b class="orange click about-me" onclick="toggleModal()">about me</b
+            >.
           </p>
           <div class="social__list">
             <a
@@ -118,10 +110,10 @@
             <b class="orange">user experiences</b>.
             <br />
             I'm currently studying
-            <b class="orange">software development</b> at Developer's
-            Institute from a team of dedicated and experienced industry
-            professionals, as well as working on
-            <b class="orange">solving difficult engineering problems</b>
+            <b class="orange">software development</b> at Developer's Institute
+            from a team of dedicated and experienced industry professionals, as
+            well as working on
+            <b class="orange">solving difficult problems</b>
             in my spare time.
           </p>
           <div class="modal__languages">
@@ -160,34 +152,34 @@
             <figure class="modal__language">
               <img
                 class="modal__language--img"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
-                alt="HTML logo"
+                src="/assets/nodejs.png"
+                alt="node.js logo"
               />
-              <span class="language__name">HTML</span>
+              <span class="language__name">Node.js</span>
             </figure>
             <figure class="modal__language">
               <img
                 class="modal__language--img"
-                src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
-                alt="CSS logo"
+                src="./assets/postgresql.png"
+                alt="PostgreSQL logo"
               />
-              <span class="language__name">CSS</span>
+              <span class="language__name">PostgreSQL</span>
             </figure>
             <figure class="modal__language">
               <img
                 class="modal__language--img"
-                src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
-                alt="JavaScript logo"
+                src="./assets/docker.png"
+                alt="Docker logo"
               />
-              <span class="language__name">JavaScript</span>
+              <span class="language__name">Docker</span>
             </figure>
             <figure class="modal__language">
               <img
                 class="modal__language--img"
-                src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
-                alt="React logo"
+                src="./assets/aws.png"
+                alt="AWS logo"
               />
-              <span class="language__name">React</span>
+              <span class="language__name">AWS</span>
             </figure>
           </div>
         </div>
@@ -247,9 +239,53 @@
             <li class="project">
               <div class="project__wrapper">
                 <img
-                  src="./assets/blinker mockup.png"
+                  src="./assets/cat-couture.png"
                   class="project__img"
                   alt="project 1"
+                />
+                <div class="project__wrapper--bg">
+                  <div class="project__description">
+                    <h3 class="project__description--title">
+                      Cat Product Website
+                    </h3>
+                    <h4 class="project__description--sub-title">
+                      React, JavaScript, PostgreSQL, REST API, CSS
+                    </h4>
+                    <p class="project__description--para">
+                      Comprehensive full-stack cat product application. Uses a
+                      postgreSQL database to store product, discount, and
+                      reports information, which is then retrieved via Express
+                      API server and processed via fetch request. Product data
+                      is then displayed on a React single page application using
+                      best practices, which utilises JSON web tokens and Auth0
+                      for authentication.
+                    </p>
+                    <div class="project__description--links">
+                      <a
+                        href="https://github.com/Developers-Institute-Classrooms/03-project---cat-couture-Campbellmoroney"
+                        target="_blank"
+                        class="project__description--link"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                      <a
+                        href="https://legendary-tulumba-b761e9.netlify.app/"
+                        target="_blank"
+                        class="project__description--link"
+                      >
+                        <i class="fas fa-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/library.png"
+                  class="project__img"
+                  alt="project 2"
                 />
                 <div class="project__wrapper--bg">
                   <div class="project__description">
@@ -281,17 +317,17 @@
             <li class="project">
               <div class="project__wrapper">
                 <img
-                  src="./assets/blinker mockup.png"
+                  src="./assets/library.png"
                   class="project__img"
-                  alt="project 1"
+                  alt="project 3"
                 />
                 <div class="project__wrapper--bg">
                   <div class="project__description">
                     <h3 class="project__description--title">
-                      Car Sales Project
+                      Library eCommerce Project
                     </h3>
                     <h4 class="project__description--sub-title">
-                      HTML, CSS, JavaScript, React
+                      HTML, CSS, JavaScript
                     </h4>
                     <p class="project__description--para">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -301,44 +337,10 @@
                       repellendus autem.
                     </p>
                     <div class="project__description--links">
-                      <a href="#" class="project__description--link">
+                      <a href="https://github.com/Campbellmoroney/Library-eCommerce" class="project__description--link">
                         <i class="fab fa-github"></i>
                       </a>
-                      <a href="#" class="project__description--link">
-                        <i class="fas fa-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="project">
-              <div class="project__wrapper">
-                <img
-                  src="./assets/blinker mockup.png"
-                  class="project__img"
-                  alt="project 1"
-                />
-                <div class="project__wrapper--bg">
-                  <div class="project__description">
-                    <h3 class="project__description--title">
-                      Car Sales Project
-                    </h3>
-                    <h4 class="project__description--sub-title">
-                      HTML, CSS, JavaScript, React
-                    </h4>
-                    <p class="project__description--para">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Nihil ipsam voluptate dolor distinctio obcaecati harum,
-                      illo necessitatibus placeat, quibusdam magni quas expedita
-                      error doloremque officia! Impedit doloribus natus
-                      repellendus autem.
-                    </p>
-                    <div class="project__description--links">
-                      <a href="#" class="project__description--link">
-                        <i class="fab fa-github"></i>
-                      </a>
-                      <a href="#" class="project__description--link">
+                      <a href="https://campbellmoroney.github.io/Library-eCommerce/" class="project__description--link">
                         <i class="fas fa-link"></i>
                       </a>
                     </div>
@@ -355,43 +357,35 @@
         <div class="footer__row">
           <a href="#">
             <figure>
-              <img src="./assets/logo.png" class="footer__logo--img" alt="logo" />
+              <img
+                src="./assets/logo.png"
+                class="footer__logo--img"
+                alt="logo"
+              />
             </figure>
           </a>
           <div class="footer__social--list">
             <a
               href="https://github.com/Campbellmoroney"
               target="_blank"
-              class="
-                footer__social--link
-                link__hover-effect link__hover-effect--white
-              "
+              class="footer__social--link link__hover-effect link__hover-effect--white"
               >Github</a
             >
             <a
               href="https://www.linkedin.com/in/campbell-moroney-9288ab1a3/"
               target="_blank"
-              class="
-                footer__social--link
-                link__hover-effect link__hover-effect--white
-              "
+              class="footer__social--link link__hover-effect link__hover-effect--white"
               >LinkedIn</a
             >
             <a
               href="#"
               onclick="toggleModal()"
-              class="
-                footer__social--link
-                link__hover-effect link__hover-effect--white
-              "
+              class="footer__social--link link__hover-effect link__hover-effect--white"
               >Contact</a
             >
             <a
               href="#"
-              class="
-                footer__social--link
-                link__hover-effect link__hover-effect--white
-              "
+              class="footer__social--link link__hover-effect link__hover-effect--white"
               >Resume</a
             >
           </div>
